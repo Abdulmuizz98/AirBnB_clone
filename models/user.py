@@ -14,9 +14,3 @@ class User(BaseModel):
     password = ""
     first_name = ""
     last_name = ""
-
-    def __init__(self, *args, **kwargs):
-        """
-        Initialize a User object
-        """
-        BaseModel.__init__(self, *args, **kwargs)
